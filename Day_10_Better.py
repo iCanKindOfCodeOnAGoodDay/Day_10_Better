@@ -132,7 +132,7 @@ def try_convert_input_integer( prompt ):
     while should_try_again == True:
         
         try: 
-            num = int(input(prompt))
+            num = float(input(prompt))
             
             return num        
         except:
